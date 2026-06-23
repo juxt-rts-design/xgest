@@ -5,9 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>BULLETIN 3eme TRIMESTRE</title>
     <style>
-      body { font-family: Arial, sans-serif; display:flex; flex-direction:column; align-items:center; justify-content:flex-start; padding:2rem; }
-      h1 { text-align:center; }
-      img { max-width:90%; height:auto; margin-top:1rem; }
+      *, *::before, *::after { box-sizing:border-box; }
+      html, body { margin:0; padding:0; }
+      body { font-family: Arial, sans-serif; display:flex; flex-direction:column; align-items:center; justify-content:flex-start; padding:1rem; }
+      h1 { text-align:center; margin:0 0 1rem; }
+      img { width:100%; max-width:100%; height:auto; margin-top:0; display:block; }
+      @media (max-width:640px) {
+        body { padding:0.75rem; }
+      }
     </style>
   </head>
   <body>
